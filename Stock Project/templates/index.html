@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Financial Plot</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="../static/styles.css">
+
+      </head>
+      
+<body>
+
+      <div class="glass_title">
+        <div class="title">
+          <h1 class="avengers"><strong>The Avengers</strong></h1>
+          <h2 class="avengers"><strong>Earths Mightiest Investors</strong></h2>
+          <!-- <p class="hover_txt">::HOVER OVER ME::</p> -->
+          <form class="d-flex">
+            <input class="form-control me-2" id= "stockInput" name = "stock" type="search" placeholder="Enter NASDAQ Stock Ticker" aria-label="Search">
+            <button class="btn btn-outline-success" id="submit" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+
+      <main>
+
+        <section class="glass">
+
+            <div class="box">
+
+              <h2 class="avengers">Stock Chart</h2>
+                <div class="stock_info">
+                  <div class="chart" id="plot"></div>
+                </div>
+              
+              <h2 class="avengers">Predictive Model</h2>
+                <div class="stock_info2">
+                  <div class="chart2" id="plot2"></div>
+                </div>
+
+            </div>
+
+            <div class="news_section">
+
+              <div class="box">
+
+                <h2 class="avengers">Latest News</h2>
+                <div class="stock_info3">
+                  <div class="news"></div>
+                </div>
+
+              </div>
+
+              <div class="box">
+
+                <h2 class="avengers">Twitter Sentiment</h2>
+                <div class="stock_info4">
+                  <div class="twitter">
+                    <a class="twitter-timeline" data-lang="en" data-width="350" data-height="585" href="https://twitter.com/KwonEnoch/lists/market-tweets-87584?ref_src=twsrc%5Etfw">A Twitter List by KwonEnoch</a> 
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+        </section>
+
+      </main>
+
+    <script src="static/plot.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Rating Chocolate by Country of Origin and Manufacture</title>
+		<link rel="stylesheet" type="text/css" href="../static/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- added for dependency chart -->
+	<script src="//d3js.org/d3.v4.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.3.2/js/tether.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+
+	<!-- added for donut -->
+	</head>
+
+	<body>
+		<div class="jumbotron sticky-top">
+		<h1 class="display-4"><strong><b>Rating Chocolate by Country of Origin and Manufacture</b></strong></h1>
+		</div>
+
+
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<br>
+					<span>
+						This is the story of chocolate. What begins as a humble cacao seed traverses the globe, transforms into chocolate, and  competes for rating from the Manhattan Chocolate Society.
+						<br><br> 
+						The charts below are made with the data from 2015-2019. This garners 997 ratings. The cacao grown is by 54 countries different countries and the chocolate is manufactured by 56 countries. 
+					</span>
+					<br>
+				</div>
+			</div>
+
+			<div class="row justify-content-md-center">
+				<div class="col-md-9">
+					<div class="dependency"></div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<span>Chart 1 (chord). This chart indicates the flow of cacao from the country that produces it to the the country that turns it into chocolate.</span>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-12">
+					<div class="chart">
+						<g class=“tick” opacity=“1” transform=“translate(141.5,0)“>
+							<line stroke=“#000” y2=“-200"></line>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<span> Chart 2 (scatterplot). This is a comparison of all 997 ratings via country. The darker the circle color, the more chocolate bars that ranked as this rating.</span>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-8">
+					<div>
+						<figure class="highcharts-figure">
+							<div id="container"></div>
+							<p class="highcharts-description"></p>
+						</figure>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<span>Chart 3 (donut). Of the 997 chocolate ratings, 483 of these are for 70% cacao chocolate bars. In order to see who produces the best chocolate, the top 10 chocolate manufacturing countries are being compared on their average ratings of the 70% cocoa bars. </span>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="text-center col-md-12">
+					<br>
+					<br>
+					<span>
+						Cassie Folkers | Jim Hernandez | Jackie Huang | Jeriel Tenorio | Nikole Yeung
+					</span>
+					<br>
+					<br>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- dependency -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+		<!-- donut -->
+		  
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script src="https://code.highcharts.com/highcharts-more.js"></script>
+		<script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+		<script src="https://code.highcharts.com/modules/exporting.js"></script>
+		<script src="https://code.highcharts.com/modules/export-data.js"></script>
+		<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+		<script type="text/javascript" src="../static/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,245 @@
+
+body {
+    background: linear-gradient(to right top, #66BFBF, #e4f9f5);
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    
+  }
+
+/* .subheader {
+  font: size 11px;;
+} */
+
+.options {
+  font-size:14px;
+}
+
+.hover_txt {
+  font-size:x-small;
+}
+  
+  
+a.navbar-brand:hover {
+ color: black;
+  }
+  
+a.nav-link:hover {    
+    color: black;
+  }
+  
+a:hover {
+    color: #EAF6F6;
+}
+  
+.navbar-toggler {
+  color:#40514E;
+  background-color: #11999E;
+}
+
+.navbar {
+background: linear-gradient(
+    to right bottom,
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3)
+)
+}
+
+main {
+    min-height: 100vh;
+    /* background: linear-gradient(to right top, #66BFBF, #e4f9f5); */
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+.glass_title {
+  align-items: center;
+  justify-content: center;
+  background: white;
+  background: linear-gradient(
+    to right bottom, 
+    rgba(255,255,255,0.5), 
+    rgba(255,255,255,0.2)
+    );
+    border-radius: 1rem;
+    display: flex;
+  padding: 2rem;
+}
+
+
+.glass {
+    align-items: center;
+    justify-content: center;
+    background: white;
+    background: linear-gradient(
+      to right bottom, 
+      rgba(255,255,255,0.5), 
+      rgba(255,255,255,0.2)
+      );
+      border-radius: 1rem;
+      display: flex;
+  }
+
+.title {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: linear-gradient(
+    to left top, 
+    rgba(255,255,255,0.8),
+    rgba(255, 255, 255, 0.486)
+    );
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.39);
+}
+
+.box {
+    margin: 2rem;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    
+}
+
+.stock_info {
+    display: flex;
+    background: linear-gradient(
+        to left top, 
+        rgba(255,255,255,0.8),
+        rgba(255, 255, 255, 0.486)
+        );
+        border-radius: 1rem;
+        margin: 2rem 0rem;
+        padding: 2rem;
+        box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.39);
+}
+
+.stock_info2 {
+  display: flex;
+  background: linear-gradient(
+      to left top, 
+      rgba(255,255,255,0.8),
+      rgba(255, 255, 255, 0.486)
+      );
+      border-radius: 1rem;
+      margin: 2rem 0rem;
+      padding: 2rem;
+      box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.39);
+}
+
+.stock_info3 {
+  width: 414px;
+  background: linear-gradient(
+      to left top, 
+      rgba(255,255,255,0.8),
+      rgba(255, 255, 255, 0.486)
+      );
+      border-radius: 1rem;
+      margin: 2rem 0rem;
+      padding: 2rem;
+      box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.39);
+}
+
+.stock_info4 {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+      to left top, 
+      rgba(255,255,255,0.8),
+      rgba(255, 255, 255, 0.486)
+      );
+      border-radius: 1rem;
+      margin: 2rem 0rem;
+      padding: 2rem;
+      box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.39);
+}
+
+/* .dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255,255,255,0.5), 
+        rgba(255, 255, 255, 0.432)
+        );
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.39);
+} */
+
+
+/* Header text hover animation */
+.avengers {
+    background: #CA4246;
+    background-color: #CA4246;
+    background: conic-gradient(
+      #CA4246 50.666%, 
+      #E16541 50.666%, 
+      #E16541 60.333%, 
+      #F18F43 33.333%, 
+      #F18F43 50%, 
+      #8B9862 45%, 
+      #8B9862 73.666%, 
+      #476098 50.666%, 
+      #476098 70.333%, 
+      #A7489B 83.333%);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 57%;
+    background-repeat: repeat;
+    
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+    /* Animate the text when loading the element. */
+    /* This animates it on page load and when hovering out. */
+    animation: avengers-animation-rev 2s ease forwards;
+  
+    cursor: pointer;
+  
+  }
+  
+  .avengers:hover {
+    animation: avengers-animation 2s ease forwards;
+  }
+  
+  @keyframes avengers-animation {
+    0% {
+      background-size: 57%;
+      background-position: 0 0;
+    }
+    20% {
+      background-size: 57%;
+      background-position: 0 1em;
+    }
+    100% {
+      background-size: 300%;
+      background-position: -9em 1em;
+    }
+  }
+  
+  @keyframes avengers-animation-rev {
+    0% {
+      background-size: 300%;
+      background-position: -9em 1em;
+    }
+    20% {
+      background-size: 57%;
+      background-position: 0 1em;
+    }
+    100% {
+      background-size: 57%;
+      background-position: 0 0;
+    }
+  }

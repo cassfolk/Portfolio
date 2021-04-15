@@ -1,0 +1,85 @@
+body {
+    background-image: url(https://raw.githubusercontent.com/jackie33g/UCI_Project-2/jeriel_p2/In%20Progress/jeriel/chocolate-background.jpg);
+    color: white !important;
+    background-attachment: fixed
+  }
+  
+  h1 {
+    text-align: center;
+    color: #511d0f !important;
+  }
+  
+.jumbotron {
+  background-color: white !important;
+  font-weight: 100;
+  margin: -20px;
+  box-shadow: 10px 20px 5px #511d0fad;
+}
+
+.text-center {
+  align-content: center;
+  text-align: center !important;
+}
+
+.dependency {
+    background-color: white;
+    width: 840px;
+    height: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    padding: 10px;
+}
+
+.chart {
+    max-width: 1010px;
+    height: 540px;
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    margin-left: 55px;
+    margin-bottom: 50px; 
+    padding: 25px;
+}
+/* Donut Chart css */
+
+#container {
+    max-width: 700px;
+    height: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    margin-left: 25px;
+  }
+  
+  .highcharts-figure, .highcharts-data-table table {
+    min-width: 600px;  
+      max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #EBEBEB;
+    margin: 10px auto;
+    text-align: center;
+    width: 80%;
+    max-width: auto;
+  }
+  .highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+  }
+  .highcharts-data-table th {
+      font-weight: 500;
+    padding: 0.5em;
+  }
+  .highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+    padding: 0.5em;
+  }
+  .highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+  }
+  .highcharts-data-table tr:hover {
+    background: #f1f7ff;
+  }
