@@ -22,13 +22,15 @@ A prediction based of historical data is not enough. I also want to see what the
 * CSS
 * Bootstrap
 * Javascript
-* Python Pandas
-* MongoDB
-* Flask
-* Scikit-Learn
-* Nginx
-* Gunicorn
-* AWS 
+    * D3
+* Python 
+    * Pandas
+    * Numpy
+    * Matplotlib
+    * SQLAlchemy
+    * SciPy
+* SQL
+
 
 
 ## Application Link
