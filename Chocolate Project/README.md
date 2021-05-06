@@ -1,4 +1,4 @@
-# Chocolate Project
+# Chocolate: Where it comes from, where it goes, how it ranks
 
 ## Table of Contents
   * [Description](#Description)
