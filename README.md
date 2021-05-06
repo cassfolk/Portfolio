@@ -1,37 +1,27 @@
- # NASDAQ 100 Stock Prediction Analysis with Machine Learning 
+# Cassandra Folkers Portfolio 
 
-## Table of Contents
-  * [Description](#Description)
-  * [Language/Technoligies Used](#Language/Technologies-Used)  
-  * [Repository](#Repository-Link)
-
-
-## Description 
-This web-application implements machine learning to predict historical predictions by teaching the machine through Scikit-Learn with historic prices from the prior 6 months.The application is deployed through AWS and the data is pulled both through an AWS stored MongoDB as well as FMP Stock API.  
+## Portfolio
+  * [Chocolate Project](#Chocolate-Project)
+  * [Movie Project](#Movie-Project)  
+  * [Stock Project](#Stock-Project)
 
 
+## Chocoalte Project
+Analzie the cacao flow from country of origin to manufacture country, rankings of chocolate produced by manufacture country, and how the top 10 manufacture countries ranked in producing 70% cacao chocolate bars, the most commonly produced percentage. 
 
-## Language/Technologies Used
+
+## Movie Project
+Analyze if there is any correlation between budget and profitability of drama, action, and comedy movies.
+
+
+## Stock Project
+This web-application implements machine learning to predict historical predictions by teaching the machine through Scikit-Learn with historic prices from the prior 6 months.The application is deployed through AWS and the data is pulled both through an AWS stored MongoDB as well as FMP Stock API
+
+
+## Languages Showcased
 * HTML
 * CSS
-* Bootstrap
 * Javascript
-* Python Pandas
+* Python
 * MongoDB
-* Flask
-* Scikit-Learn
-* Nginx
-* Gunicorn
-* AWS 
-
-
-## Presentation 
-[Presentation Slide](https://docs.google.com/presentation/d/1hKnQ9tkGpCanTi4W3dku7xdHz-cAuIe4QOjKIm6JjrU/edit#slide=id.gc2d595b5a4_1_98)
-
-
-## Repository Link
-https://github.com/KimchiKoala/Heroku_UCI
-
-
-## Application Link
-https://uci-project3.herokuapp.com/
+* PostgresSQL
