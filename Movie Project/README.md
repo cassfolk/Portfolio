@@ -22,13 +22,13 @@ Using movies from 2015-2019, this task examines three main questions:
     * SciPy
 
 
-# Findings 
+## Findings 
 We found no correlation between budget and profitability. Instead, the scatter plot revealed most movies were made under a 60-million-dollar budget. Also, most of the higher profits were movies made at or less than a 60-million-dollar budget.
 
 We identified the top 3 most lucrative genres:
   * Drama (126 movies)
   * Action (112 movies)
-  *  Comedy (91 movies)
+  * Comedy (91 movies)
  
 Drama and Comedy were similar, with most movies made under a 60-million-dollar budget and very few over that budget. We see the same trend of higher profits under a 60-million-dollar budget. 
 
