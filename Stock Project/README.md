@@ -13,9 +13,9 @@ This web-application implements machine learning to predict historical predictio
 
 ## Contributors
 [Cassie Folkers](https://www.linkedin.com/in/cassandrafolkers/) 
-  * Responsible for intitial API call code, both stock visuals, flask application
-  * Collaborated together on daily update of stock, index.html
-  
+* Responsible for intitial API call code, both stock visuals, flask application
+* Collaborated together on daily update of stock, index.html <br>
+
 [Cody Tong](https://www.linkedin.com/in/cody-tong/)  
 [Enoch Kwon](https://www.linkedin.com/in/enoch-kwon-m-a-40064bb8/)  
 [Lindsey Giron](https://www.linkedin.com/in/lindsey-g-47a770103/)  
