@@ -1,9 +1,9 @@
 # Cassandra Folkers Portfolio 
 
 ## Portfolio
-  * [Chocolate Project](#Chocolate-Project)
-  * [Movie Project](#Movie-Project)  
-  * [Stock Project](#Stock-Project)
+* [Chocolate Project](#Chocolate-Project)
+* [Movie Project](#Movie-Project)  
+* [Stock Project](#Stock-Project)
 
 
 ## Chocoalte Project
