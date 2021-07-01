@@ -1,4 +1,8 @@
-# Cassandra Folkers Portfolio 
+# Cassandra Folkers Portfolio
+
+## Contact information
+* [Email] (mailto: cassandra.folkers@gmail.com)
+* [LinkedIn] (https://www.linkedin.com/in/cassandrafolkers/)
 
 ## Portfolio
 * [Chocolate Project](#Chocolate-Project)
